@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Akshat Agarwal</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Akshat Agarwal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 p-6 pt-24">
-<header class="fixed text-white top-0 left-0 w-full bg-gray-900/95 backdrop-blur-sm z-50 shadow-md">
-    <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4"
-         aria-label="Primary">
+
+<!-- REMOVE body padding so the background can touch the edges -->
+<body class="bg-gray-900 text-white">
+
+  <!-- Fixed navbar on top -->
+  <header class="fixed top-0 left-0 w-full bg-gray-900/95 backdrop-blur-sm z-50 shadow-md">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4" aria-label="Primary">
       <div class="text-xl font-semibold">Akshat Agarwal</div>
       <ul id="nav-links" class="flex gap-6">
         <li><a href="#home" class="hover:text-blue-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">Home</a></li>
@@ -20,14 +22,39 @@
       </ul>
     </nav>
   </header>
-<div class = "text-center pt-24">
-    <h1 class="text-4xl font-bold text-blue-600">Hi, I'm Akshat</h1>
-    <p class="pb-6 pt-4 text-blue-400 max-w-3xl mx-auto leading-relaxed">I'm a 2nd-year IT student at VIT Vellore with a growing passion for Web Development, AI/ML & Cloud Computing. I am a curious learner, always ready to dive into new technologies, and currently building my skills in JavaScript, React & Node.js.</p>
-  <button id="seeWorkBtn"class="text-lg mt-4 bg-blue-600 text-black px-4 py-2 rounded-3xl">
-    See my work
-  </button>
-</div>
-<script src="script.js"></script>
-</body>
 
+  <!-- HERO: full-width background, content INSIDE the section -->
+  <section id="home" class="relative h-screen bg-[url('hero.jpg')] bg-cover bg-center">
+    <!-- Overlay lives ONLY inside hero -->
+    <div class="absolute inset-0 bg-black/50"></div> <!-- use Tailwind z classes, not z-index-* -->
+
+    <!-- Content above overlay; container centers text but bg stays full width -->
+    <div class="relative z-10 max-w-6xl mx-auto px-6 h-full flex flex-col items-center justify-center text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-white">Hi, I'm Akshat</h1>
+      <p class="mt-4 text-blue-200 max-w-3xl leading-relaxed">
+        I'm a 2nd-year IT student at VIT Vellore with a growing passion for Web Development, AI/ML & Cloud Computing. I am a curious learner, always ready to dive into new technologies, and currently building my skills in JavaScript, React & Node.js.
+      </p>
+      <button id="seeWorkBtn" class="text-lg mt-6 bg-blue-600 text-white px-5 py-2 rounded-3xl hover:bg-blue-500 transition">
+        See my work
+      </button>
+    </div>
+  </section>
+
+  <!-- Main content starts below; add top padding to clear the fixed navbar -->
+  <main class="max-w-6xl mx-auto px-6 pt-24">
+    <section id="projects" class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <h3 class="py-40 text-xl font-semibold text-white">Project 1</h3>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <h3 class="text-xl font-semibold text-white">Project 2</h3>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <h3 class="text-xl font-semibold text-white">Project 3</h3>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
