@@ -10,9 +10,9 @@ export default function Home() {
         logoAlt="Company Logo"
         items={[
           { label: 'Home', href: '/' },
-          { label: 'About', href: '/about' },
-          { label: 'Projects', href: '/projects' },
-          { label: 'Contact', href: '/contact' }
+          { label: 'About', href: '#about' },
+          { label: 'Projects', href: '#projects' },
+          { label: 'Contact', href: '#contact' }
         ]}
         activeHref="/"
         className="custom-nav"
