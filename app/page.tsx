@@ -1,12 +1,11 @@
-'use client'
 import PillNav from '@/components/PillNav';
-import logo from '@/public/logo.svg';
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center bg-zinc-50 font-sans dark:bg-black min-h-screen">
+    <>
+    <div className="flex justify-center bg-zinc-50 font-sans dark:bg-black min-h-screen">
       <PillNav
-        logo={logo}
+        logo='/logo.svg'
         logoAlt="Company Logo"
         items={[
           { label: 'Home', href: '/' },
@@ -23,8 +22,11 @@ export default function Home() {
         pillTextColor="#000000"
         initialLoadAnimation={true}
       />
-      
-      hi
-    </div>
+      <div>
+        <h1 className="text-5xl font-bold text-blue-100 mt-50">Hi, I'm Akshat</h1>
+      </div>
+      </div>
+    </>
+    
   );
 }
