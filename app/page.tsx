@@ -22,8 +22,9 @@ export default function Home() {
         pillTextColor="#000000"
         initialLoadAnimation={true}
       />
-      <div>
-        <h1 className="text-5xl font-bold text-blue-100 mt-50">Hi, I'm Akshat</h1>
+      <div className='flex justify-center items-center flex-col'>
+        <h1 className="text-5xl font-bold text-blue-100 mt-5">Hi, I'm Akshat</h1>
+        <p className="text-2xl text-blue-200 mt-4">A passionate developer building web experiences.</p>
       </div>
       </div>
     </>
