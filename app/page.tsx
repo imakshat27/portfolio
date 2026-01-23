@@ -43,9 +43,10 @@ export default function Home() {
         initialLoadAnimation={true}
       />
       <div className='flex flex-col items-center mt-32 text-center'>
-        <h1 className="text-5xl font-bold text-blue-100 mt-40">Hi, I'm Akshat</h1>
+        <h1 className="text-5xl font-bold text-blue-100 mt-50">Hi, I'm Akshat</h1>
         <p className="text-2xl text-blue-200 mt-4">A passionate developer building web experiences.</p>
       </div>
+      
       </div>
       </div>
     </>
