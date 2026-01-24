@@ -14,7 +14,7 @@ export default function Home() {
       lightSpread={1}
       rayLength={2}
       pulsating={false}
-      fadeDistance={1.0}
+      fadeDistance={1.5}
       saturation={0.5}
       followMouse
       mouseInfluence={0.05}
@@ -42,10 +42,19 @@ export default function Home() {
         pillTextColor="#000000"
         initialLoadAnimation={true}
       />
-      <div className='flex flex-col items-center mt-32 text-center'>
-        <h1 className="text-5xl font-bold text-blue-100 mt-50">Hi, I'm Akshat</h1>
-        <p className="text-2xl text-blue-200 mt-4">A passionate developer building web experiences.</p>
+      <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-4 gap-8">
+        <div className='flex flex-col text-center lg:text-left'>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-100">Akshat<br/>Agarwal</h1>
+        <p className="text-lg sm:text-xl md:text-2xl font-bold text-blue-200 mt-4">Web Developer</p>
+        <div className="flex justify-center lg:justify-center gap-6 mt-6">
+        <img src="/github.png" alt="Github" className="w-10 h-10 sm:w-10 sm:h-10" />
+        <img src="/linkedin.png" alt="LinkedIn" className="w-10 h-10 sm:w-10 sm:h-10" />
+        <img src="/twitter.png" alt="Twitter" className="w-10 h-10 sm:w-10 sm:h-10" />
+        </div>
       </div>
+      <img src="/image.png" alt="Profile Picture" className="w-48 sm:w-64 md:w-80 lg:w-96 h-auto rounded-full" />
+      </div>
+      
       
       </div>
       </div>
