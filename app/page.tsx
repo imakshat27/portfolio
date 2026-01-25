@@ -5,7 +5,6 @@ import Hero from '@/components/ui/Hero';
 export default function Home() {
   return (
     <>
-    
     <div className="relative min-h-screen bg-zinc-50 font-sans dark:bg-black overflow-hidden">
       <div className="absolute inset-0 z-0 flex items-center justify-center">
     <LightRays
