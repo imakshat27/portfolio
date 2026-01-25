@@ -1,7 +1,7 @@
 function Hero() {
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-4 gap-8">
-        <div className='flex flex-col text-center lg:text-left'>
+        <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-4 gap-8 lg:gap-16">
+        <div className='flex flex-col text-center lg:text-center items-center'>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-100">AKSHAT<br/>AGARWAL</h1>
         <p className="text-lg sm:text-xl md:text-2xl font-bold text-blue-200 mt-4">WEB DEVELOPER</p>
         <div className="flex justify-center lg:justify-center gap-6 mt-6">

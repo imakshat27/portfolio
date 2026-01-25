@@ -1,6 +1,7 @@
 import PillNav from '@/components/PillNav';
 import LightRays from '@/components/LightRays';
 import Hero from '@/components/ui/Hero';
+import About from '@/components/ui/About';
 
 export default function Home() {
   return (
@@ -43,8 +44,11 @@ export default function Home() {
         initialLoadAnimation={true}
       />
       <Hero />
+      <div id="about" className="w-full z-30 mt-20 mb-20">
+        <About />
       </div>
-      
+      </div>
+       
       </div>
     </>
     
