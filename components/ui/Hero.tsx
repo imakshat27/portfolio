@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-4 gap-8">
+        <div className="flex flex-col lg:flex-row items-center font-rubik-mono-one justify-center min-h-screen px-4 gap-8">
         <div className='flex flex-col text-center lg:text-left'>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-100">Akshat<br/>Agarwal</h1>
         <p className="text-lg sm:text-xl md:text-2xl font-bold text-blue-200 mt-4">Web Developer</p>

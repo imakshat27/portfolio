@@ -26,7 +26,7 @@ export default function Home() {
 </div>
       <div className="relative z-10 flex flex-col items-center">
       <PillNav
-        logo='/logo.svg'
+        logo='/logo.png'
         logoAlt="Company Logo"
         items={[
           { label: 'Home', href: '/' },
