@@ -75,10 +75,10 @@ export default function Home() {
         <About />
       </div>
       <div id="projects" className="w-full z-30">
-          
-
-<div style={{ height: '100vh', position: 'relative' }}>
-  Projects
+      <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-10">
+        Projects
+      </div>
+<div style={{ height: '90vh', position: 'relative' }}>
   <InfiniteMenu items={items}
     scale={1}
 />
