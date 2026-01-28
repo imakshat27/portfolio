@@ -3,6 +3,7 @@ import LightRays from '@/components/LightRays';
 import Hero from '@/components/ui/Hero';
 import About from '@/components/ui/About';
 import InfiniteMenu from '@/components/InfiniteMenu';
+import Contact from '@/components/ui/Contact';
 
 export default function Home() {
   const items = [
@@ -83,6 +84,9 @@ export default function Home() {
     scale={1}
 />
 </div>
+      </div>
+      <div id="contact" className="w-full min-h-screen z-30 flex items-center">
+          <Contact />
       </div>
       </div>
        
