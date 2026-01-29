@@ -2,7 +2,7 @@ function Contact() {
   return (
     <section id="contact" className="w-full max-w-2xl mx-auto px-4 py-16">
       <h2 className="text-3xl font-bold mb-8 text-center">Contact Me</h2>
-      <form className="space-y-6" action="https://formsubmit.co/agarwalakshat2710@gmail.com" method="POST">
+      <form className="space-y-6" action="https://formsubmit.co/2a2a3b11f823e4c986bd0f2426b3845a" method="POST">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
             Name
