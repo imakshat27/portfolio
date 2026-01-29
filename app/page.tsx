@@ -41,9 +41,9 @@ export default function Home() {
       raysColor="#ffffff"
       raysSpeed={1}
       lightSpread={1}
-      rayLength={3}
+      rayLength={2}
       pulsating={false}
-      fadeDistance={3}
+      fadeDistance={2.5}
       saturation={0.5}
       followMouse
       mouseInfluence={0.05}
