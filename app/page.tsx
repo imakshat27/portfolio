@@ -91,6 +91,7 @@ export default function Home() {
       </div>
        
       </div>
+      <p className="text-center text-gray-500 dark:text-gray-400">&copy; 2026 Akshat Agarwal. All Rights Reserved.</p>
     </>
     
   );
