@@ -82,7 +82,7 @@ export default function Home() {
 <div className="flex flex-wrap justify-center gap-10 min-h-screen mt-20 mb-30">
   <a href="https://github.com/imakshat27">
   <TiltedCard
-  imageSrc="https://picsum.photos/300"
+  imageSrc="https://www.youtube.com/channel/UCUNh3glyveNfg4kAA-0uUng"
   altText="Project 1"
   captionText="Project 1"
   containerHeight="300px"
@@ -103,7 +103,7 @@ export default function Home() {
 </a>
 <a href="https://github.com/imakshat27">
 <TiltedCard
-  imageSrc="https://picsum.photos/300"
+  imageSrc="https://www.freepik.com/free-photos-vectors/queue-management-system"
   altText="Project 1"
   captionText="Project 1"
   containerHeight="300px"
@@ -124,7 +124,7 @@ export default function Home() {
   </a>
   <a href="https://github.com/imakshat27">
   <TiltedCard
-  imageSrc="https://picsum.photos/300"
+  imageSrc="https://www.shutterstock.com/search/geotag-logo"
   altText="Project 1"
   captionText="Project 1"
   containerHeight="300px"
@@ -145,7 +145,7 @@ export default function Home() {
   </a>
   <a href="https://github.com/imakshat27">
   <TiltedCard
-  imageSrc="https://picsum.photos/300"
+  imageSrc="https://pixabay.com/images/search/web%20developer/"
   altText="Project 1"
   captionText="Project 1"
   containerHeight="300px"
