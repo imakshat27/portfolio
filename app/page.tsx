@@ -76,14 +76,15 @@ export default function Home() {
         <About />
       </div>
       <div id="projects" className="w-full z-30">
-      <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-10">
+      <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-10 mt-50">
         Projects
       </div>
-<div className="flex flex-wrap justify-center gap-10 min-h-screen mt-20 mb-20">
+<div className="flex flex-wrap justify-center gap-10 min-h-screen mt-20 mb-30">
+  <a href="https://github.com/imakshat27">
   <TiltedCard
-  imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-  altText="Kendrick Lamar - GNX Album Cover"
-  captionText="Kendrick Lamar - GNX"
+  imageSrc="https://picsum.photos/300"
+  altText="Project 1"
+  captionText="Project 1"
   containerHeight="300px"
   containerWidth="300px"
   imageHeight="300px"
@@ -94,15 +95,17 @@ export default function Home() {
   showTooltip
   displayOverlayContent
   overlayContent={
-    <p className="tilted-card-demo-text">
-      Kendrick Lamar - GNX
+    <p className="tilted-card-demo-text bg-accent rounded-2xl px-5 py-2">
+      Project 1
     </p>
   }
 />
+</a>
+<a href="https://github.com/imakshat27">
 <TiltedCard
-  imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-  altText="Kendrick Lamar - GNX Album Cover"
-  captionText="Kendrick Lamar - GNX"
+  imageSrc="https://picsum.photos/300"
+  altText="Project 1"
+  captionText="Project 1"
   containerHeight="300px"
   containerWidth="300px"
   imageHeight="300px"
@@ -113,15 +116,17 @@ export default function Home() {
   showTooltip
   displayOverlayContent
   overlayContent={
-    <p className="tilted-card-demo-text">
-      Kendrick Lamar - GNX
+    <p className="tilted-card-demo-text bg-accent rounded-2xl px-5 py-2">
+      Project 1
     </p>
   }
-/>
-<TiltedCard
-  imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-  altText="Kendrick Lamar - GNX Album Cover"
-  captionText="Kendrick Lamar - GNX"
+  />
+  </a>
+  <a href="https://github.com/imakshat27">
+  <TiltedCard
+  imageSrc="https://picsum.photos/300"
+  altText="Project 1"
+  captionText="Project 1"
   containerHeight="300px"
   containerWidth="300px"
   imageHeight="300px"
@@ -132,15 +137,17 @@ export default function Home() {
   showTooltip
   displayOverlayContent
   overlayContent={
-    <p className="tilted-card-demo-text">
-      Kendrick Lamar - GNX
+    <p className="tilted-card-demo-text bg-accent rounded-2xl px-5 py-2">
+      Project 1
     </p>
   }
-/>
-<TiltedCard
-  imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-  altText="Kendrick Lamar - GNX Album Cover"
-  captionText="Kendrick Lamar - GNX"
+  />
+  </a>
+  <a href="https://github.com/imakshat27">
+  <TiltedCard
+  imageSrc="https://picsum.photos/300"
+  altText="Project 1"
+  captionText="Project 1"
   containerHeight="300px"
   containerWidth="300px"
   imageHeight="300px"
@@ -151,11 +158,12 @@ export default function Home() {
   showTooltip
   displayOverlayContent
   overlayContent={
-    <p className="tilted-card-demo-text">
-      Kendrick Lamar - GNX
+    <p className="tilted-card-demo-text bg-accent rounded-2xl px-5 py-2">
+      Project 1
     </p>
   }
-/>
+  />
+  </a>
 </div>
       </div>
       <div id="contact" className="w-full min-h-screen z-30 flex items-center">
