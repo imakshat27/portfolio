@@ -79,7 +79,7 @@ export default function Home() {
       <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-10 mt-50">
         Projects
       </div>
-<div className="flex flex-wrap justify-center gap-10 min-h-screen mt-20 mb-30">
+<div className="flex flex-wrap content-center justify-center gap-10 min-h-screen mt-20 mb-30">
   <a href="https://github.com/imakshat27">
   <TiltedCard
   imageSrc="https://picsum.photos/300"
