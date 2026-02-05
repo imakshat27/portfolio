@@ -1,5 +1,4 @@
 import PillNav from '@/components/PillNav';
-import LightRays from '@/components/LightRays';
 import Hero from '@/components/ui/Hero';
 import About from '@/components/ui/About';
 import TiltedCard from '@/components/TiltedCard';
@@ -35,23 +34,6 @@ export default function Home() {
   return (
     <>
     <div className="relative min-h-screen bg-zinc-50 font-sans dark:bg-black overflow-hidden">
-      <div className="absolute inset-0 z-0 flex items-center justify-center">
-    <LightRays
-      raysOrigin="top-center"
-      raysColor="#ffffff"
-      raysSpeed={1}
-      lightSpread={1}
-      rayLength={2}
-      pulsating={false}
-      fadeDistance={2.5}
-      saturation={0.5}
-      followMouse
-      mouseInfluence={0.05}
-      noiseAmount={0}
-      distortion={0}
-    />
-
-</div>
       <div className="relative z-10 flex flex-col items-center">
       <PillNav
         logo='/logo.png'
@@ -76,10 +58,10 @@ export default function Home() {
         <About />
       </div>
       <div id="projects" className="w-full z-30">
-      <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-10 mt-50">
+      <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white">
         Projects
       </div>
-<div className="flex flex-wrap content-center justify-center gap-10 min-h-screen mt-20 mb-30">
+<div className="flex flex-wrap content-center justify-center gap-10 min-h-screen">
   <a href="https://github.com/imakshat27">
   <TiltedCard
   imageSrc="https://picsum.photos/300"
