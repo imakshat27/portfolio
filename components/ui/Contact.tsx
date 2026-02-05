@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="w-full max-w-2xl mx-auto px-4 py-16 bg-gray-700 dark:bg-gray-900 rounded-lg shadow-md">
+    <section id="contact" className="w-full max-w-2xl mx-auto px-4 py-16rounded-lg shadow-md">
       <h2 className="text-3xl font-bold mb-8 text-center">Contact Me</h2>
       <form className="space-y-6" action="https://formsubmit.co/2a2a3b11f823e4c986bd0f2426b3845a" method="POST">
         <div>
