@@ -3,10 +3,11 @@ import TiltedCard from "../TiltedCard";
 export default function Projects(){
     return (
         <>
-        <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white">
+        <div className="min-h-screen">
+        <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-40 mt-20">
         Projects
         </div>
-        <div className="flex flex-wrap content-center justify-center gap-10 min-h-screen">
+        <div className="flex flex-wrap content-center justify-center gap-10">
         <a href="https://github.com/imakshat27">
         <TiltedCard
         imageSrc="https://picsum.photos/300"
@@ -91,6 +92,7 @@ export default function Projects(){
         }
         />
         </a>
+        </div>
         </div>
     </>
     )
