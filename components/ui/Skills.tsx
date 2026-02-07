@@ -6,14 +6,17 @@ export default function Skills(){
         Skills
         </div>
         <div className="flex flex-wrap content-center justify-center gap-10">
-        <img src="/skills/java.png" alt="Java" className="w-24 h-24"/>
-        <img src="/skills/python.png" alt="Python" className="w-24 h-24"/>
-        <img src="/skills/cpp.png" alt="C++" className="w-24 h-24"/>
-        <img src="/skills/javascript.png" alt="JavaScript" className="w-24 h-24"/>
-        <img src="/skills/react.png" alt="React" className="w-24 h-24"/>
-        <img src="/skills/nodejs.png" alt="Node.js" className="w-24 h-24"/>
-        <img src="/skills/html.png" alt="HTML" className="w-24 h-24"/>
-        <img src="/skills/css.png" alt="CSS" className="w-24 h-24"/>
+        <img src="/html.png" alt="HTML" className="w-24 h-24"/>
+        <img src="/css.png" alt="CSS" className="w-24 h-24"/>
+        <img src="/tailwind.png" alt="Tailwind" className="w-24 h-24"/>
+        <img src="/javascript.png" alt="JavaScript" className="w-24 h-24"/>
+        <img src="/react.png" alt="React" className="w-24 h-24"/>
+        <img src="/nodejs.png" alt="Node.js" className="w-24 h-24"/>
+        <img src="/nextjs.png" alt="Next.js" className="w-24 h-24"/>
+        <img src="/typescript.png" alt="TypeScript" className="w-24 h-24"/>
+        <img src="/python.png" alt="Python" className="w-24 h-24"/>
+        <img src="/java.png" alt="Java" className="w-24 h-24"/>
+        <img src="/cpp.png" alt="C++" className="w-24 h-24"/>
         </div>
         </div>
         </>
