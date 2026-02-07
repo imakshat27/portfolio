@@ -3,6 +3,7 @@ import Hero from '@/components/ui/Hero';
 import About from '@/components/ui/About';
 import Projects from '@/components/ui/Projects';
 import Contact from '@/components/ui/Contact';
+import Skills from '@/components/ui/Skills';
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <Hero />
       <div id="about" className="w-full z-30 mt-20 mb-20">
         <About />
+        <Skills />
       </div>
       <div id="projects" className="w-full z-30 mt-20 mb-20">
         <Projects />
