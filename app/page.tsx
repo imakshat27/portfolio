@@ -15,7 +15,7 @@ export default function Home() {
         logoAlt="Company Logo"
         items={[
           { label: 'Home', href: '/' },
-          { label: 'About', href: '#about' },
+          { label: 'Skills', href: '#skills' },
           { label: 'Projects', href: '#projects' },
           { label: 'Contact', href: '#contact' }
         ]}
@@ -29,8 +29,7 @@ export default function Home() {
         initialLoadAnimation={true}
       />
       <Hero />
-      <div id="about" className="w-full z-30 mt-20 mb-20">
-        <About />
+      <div id="skills" className="w-full z-30 mt-20 mb-20">
         <Skills />
       </div>
       <div id="projects" className="w-full z-30 mt-20 mb-20">
