@@ -1,37 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Akshat Agarwal 🚀
 
-## Getting Started
+**Web Developer | Frontend-focused | Builder by instinct**
 
-First, run the development server:
+🌐 Portfolio: [akshat-agarwal.vercel.app](https://akshat-agarwal.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [https://www.akshat-agarwal.vercel.app](https://www.akshat-agarwal.vercel.app) with your browser to see the result.
+## 👋 About Me
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I’m a web developer who enjoys turning ideas into **fast, intuitive, and scalable** web experiences.  
+I care deeply about **clean UI, thoughtful UX, and solid engineering fundamentals**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Whether it’s crafting smooth animations, building full-stack features, or optimizing performance — I like shipping things that *feel good to use*.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Frontend**
+- React, Next.js
+- TypeScript, JavaScript (ES6+)
+- Tailwind CSS, CSS Modules
+- HTML5, CSS3
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Backend & Tools**
+- Node.js
+- REST APIs
+- Git & GitHub
+- Vercel
+- MongoDB / Firebase *(if applicable)*
 
-## Deploy on Vercel
+**Extras**
+- Responsive design
+- Performance optimization
+- Component-driven development
+- Accessibility-first mindset
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# portfolio
+## 🛠️ Projects
+
+Some things I’ve built:
+- ⚡ Interactive web apps with Next.js  
+- 🎨 Clean, responsive UI systems  
+- 🔐 Auth-enabled dashboards  
+- 📊 Data-driven interfaces  
+
+👉 Full project list & live demos:  
+**[akshat-agarwal.vercel.app](https://akshat-agarwal.vercel.app)**
+
+---
+
+## 💡 What I Care About
+
+- Writing readable, maintainable code
+- Building products with real users in mind
+- Learning new tools and improving every iteration
+- Balancing aesthetics with performance
+
+---
+
+## 📫 Let’s Connect
+
+- 🌐 Portfolio: [akshat-agarwal.vercel.app](https://akshat-agarwal.vercel.app)
+- 💼 LinkedIn: *(add link)*
+- 🐦 Twitter/X: *(optional)*
+- 📧 Email: *(optional)*
+
+---
+
+⭐ If you like my work, feel free to star the repo or reach out — always happy to collaborate.
