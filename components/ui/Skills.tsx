@@ -26,7 +26,7 @@ const skills = {
 export default function Skills() {
   return (
     <>
-      <div className="min-h-screen">
+      <div className="mb-40">
         <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-20 mt-20">
           Skills
         </div>

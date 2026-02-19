@@ -2,21 +2,21 @@ import TiltedCard from "../TiltedCard";
 
 const projects = [
   {
-    href: "https://github.com/imakshat27/movie-vault",
+    href: "https://movie-vault-a3.vercel.app/",
     imageSrc: "/movie-vault.png",
     altText: "Movie Vault",
     captionText: "Movie Vault",
     overlayContent: "Movie Vault",
   },
   {
-    href: "https://github.com/imakshat27/closestpathinc",
-    imageSrc: "/dijstraship.png",
-    altText: "DijstraShip",
-    captionText: "DijstraShip",
-    overlayContent: "DijstraShip",
+    href: "https://notes-app-mern-30i9.onrender.com/",
+    imageSrc: "/thinkboard.png",
+    altText: "ThinkBoard",
+    captionText: "ThinkBoard",
+    overlayContent: "ThinkBoard",
   },
   {
-    href: "https://github.com/imakshat27/hotel-booking",
+    href: "https://uncleartrip.vercel.app/",
     imageSrc: "/uncleartrip.png",
     altText: "UnclearTrip",
     captionText: "UnclearTrip",
@@ -35,7 +35,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-20">
+        <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-40">
           Projects
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
