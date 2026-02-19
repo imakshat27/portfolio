@@ -19,7 +19,7 @@ export function NavbarDemo() {
       link: "/",
     },
     {
-      name: "About",
+      name: "Skills",
       link: "#skills",
     },
     {

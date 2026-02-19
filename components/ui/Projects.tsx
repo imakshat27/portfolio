@@ -33,8 +33,8 @@ const projects = [
 
 export default function Projects() {
   return (
-    <>
-      <div className="min-h-screen">
+    <section id="projects" className="py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-20">
           Projects
         </div>
@@ -62,6 +62,6 @@ export default function Projects() {
           ))}
         </div>
       </div>
-    </>
-  )
+    </section>
+  );
 }
