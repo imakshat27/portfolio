@@ -1,24 +1,53 @@
-export default function Skills(){
-    return (
-        <>
-        <div className="min-h-screen">
-        <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-40 mt-20">
-        Skills
+import { Badge } from "@/components/ui/badge";
+
+const skills = {
+  "Languages": [
+    { name: "HTML", icon: "/html.png" },
+    { name: "CSS", icon: "/css.png" },
+    { name: "JavaScript", icon: "/javascript.png" },
+    { name: "TypeScript", icon: "/typescript.png" },
+    { name: "Python", icon: "/python.png" },
+    { name: "Java", icon: "/java.png" },
+    { name: "C++", icon: "/cpp.png" },
+  ],
+  "Frameworks & Libraries": [
+    { name: "React", icon: "/react.png" },
+    { name: "Node.js", icon: "/nodejs.png" },
+    { name: "Next.js", icon: "/nextjs.png" },
+    { name: "Tailwind CSS", icon: "/tailwind.png" },
+  ],
+  "Tools": [
+    { name: "Git", icon: "/github.png" },
+    { name: "Vercel", icon: "/vercel.svg" },
+
+  ]
+};
+
+export default function Skills() {
+  return (
+    <>
+      <div className="min-h-screen">
+        <div className="text-2xl items-center font-semibold text-center md:text-4xl lg:text-5xl text-black dark:text-white mb-20 mt-20">
+          Skills
         </div>
-        <div className="flex flex-wrap content-center justify-center gap-10">
-        <img src="/html.png" alt="HTML" className="w-24 h-24"/>
-        <img src="/css.png" alt="CSS" className="w-24 h-24"/>
-        <img src="/tailwind.png" alt="Tailwind" className="w-24 h-24"/>
-        <img src="/javascript.png" alt="JavaScript" className="w-24 h-24"/>
-        <img src="/react.png" alt="React" className="w-24 h-24"/>
-        <img src="/nodejs.png" alt="Node.js" className="w-24 h-24"/>
-        <img src="/nextjs.png" alt="Next.js" className="w-24 h-24"/>
-        <img src="/typescript.png" alt="TypeScript" className="w-24 h-24"/>
-        <img src="/python.png" alt="Python" className="w-24 h-24"/>
-        <img src="/java.png" alt="Java" className="w-24 h-24"/>
-        <img src="/cpp.png" alt="C++" className="w-24 h-24"/>
+        <div className="flex flex-col items-center gap-10">
+          {Object.entries(skills).map(([category, skills]) => (
+            <div key={category} className="w-full max-w-4xl">
+              <h3 className="text-xl md:text-2xl font-semibold text-center text-black dark:text-white mb-5">{category}</h3>
+              <div className="flex flex-wrap content-center justify-center gap-4">
+                {skills.map((skill) => (
+                  <Badge key={skill.name} variant="default" className="flex items-center gap-2 px-4 py-2 text-lg">
+                    <img src={skill.icon} alt={skill.name} className="w-6 h-6"/>
+                    {skill.name}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
-        </div>
-        </>
-    );
+      </div>
+    </>
+  );
+
+
 }
