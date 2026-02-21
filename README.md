@@ -64,7 +64,7 @@ Some things I’ve built:
 
 - 🌐 Portfolio: [akshatagarwal.vercel.app](https://akshatagarwal.vercel.app)
 - 💼 LinkedIn: [imakshat27](https://linkedin.com/in/imakshat27)
-- 🐦 Twitter/X: [imakshat27](https://x.com/imakshat27)
+- 🐦 Twitter/X: [imakshat_27](https://x.com/imakshat_27)
 - 📧 Email: [agarwalakshat2710@gmail.com](mailto:agarwalakshat2710@gmail.com)
 
 ---
