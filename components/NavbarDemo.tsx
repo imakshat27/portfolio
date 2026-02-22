@@ -27,9 +27,9 @@ export function NavbarDemo() {
       link: "#projects",
     },
     {
-      name: "Contact",
-      link: "#contact",
-    },
+      name: "Resume",
+      link: "/resume",
+    }
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
