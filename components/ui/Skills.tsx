@@ -32,11 +32,11 @@ export default function Skills() {
         </div>
         <div className="flex flex-col items-center gap-10">
           {Object.entries(skills).map(([category, skills]) => (
-            <div key={category} className="w-full max-w-4xl">
+            <div key={category} className="w-full max-w-5xl">
               <h3 className="text-xl md:text-2xl font-semibold text-center text-black dark:text-white mb-5">{category}</h3>
               <div className="flex flex-wrap content-center justify-center gap-4">
                 {skills.map((skill) => (
-                  <Badge key={skill.name} variant="default" className="flex items-center gap-2 px-4 py-2 text-lg">
+                  <Badge key={skill.name} variant="secondary" className="flex items-center gap-2 px-4 py-2 text-lg">
                     <img src={skill.icon} alt={skill.name} className="w-6 h-6"/>
                     {skill.name}
                   </Badge>
