@@ -15,11 +15,14 @@ const skills = {
     { name: "Node.js", icon: "/nodejs.png" },
     { name: "Next.js", icon: "/nextjs.png" },
     { name: "Tailwind CSS", icon: "/tailwind.png" },
+    { name: "Express.js", icon: "/express.png" },
   ],
-  "Tools": [
+  "Tools & Databasess": [
     { name: "Git", icon: "/github.png" },
     { name: "Vercel", icon: "/vercel.svg" },
-
+    { name: "MongoDB", icon: "/mongo.png" },
+    { name: "PostgreSQL", icon: "/postgresql.png" },
+    { name: "Redis", icon: "/redis.png" },
   ]
 };
 

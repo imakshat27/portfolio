@@ -41,7 +41,7 @@ export function NavbarDemo() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-              <NavbarButton href="#contact" variant="primary">Let's Talk</NavbarButton>
+              <NavbarButton href="#contact" variant="primary">Contact Me</NavbarButton>
           </div>
         </NavBody>
 
@@ -76,7 +76,7 @@ export function NavbarDemo() {
                 variant="primary"
                 className="w-full"
               >
-                Let's Talk
+                Contact Me
               </NavbarButton>
             </div>
           </MobileNavMenu>
