@@ -11,15 +11,15 @@ export default function Home() {
         <div className="relative z-10 flex flex-col items-center">
           <NavbarDemo />
           <Hero />
-          <section id="skills" className="w-full py-20">
-            <Skills />
-          </section>
-          <section id="projects" className="w-full py-20">
-            <Projects />
-          </section>
-          <section id="contact" className="w-full py-20">
-            <Contact />
-          </section>
+            <section id="skills" className="w-full py-20">
+              <Skills />
+            </section>
+            <section id="projects" className="w-full py-20">
+              <Projects />
+            </section>
+            <section id="contact" className="w-full py-20">
+              <Contact />
+            </section>
         </div>
       </div>
       <p className="text-center text-gray-500 dark:text-gray-400 mb-10">&copy; 2026 Akshat Agarwal. All Rights Reserved.</p>
