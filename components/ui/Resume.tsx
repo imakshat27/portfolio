@@ -1,7 +1,7 @@
 function  Resume() {
   return (
     <iframe
-      src="/resume.pdf"
+      src="/resume-new.pdf"
       className="w-full h-screen border-0"
       title="Resume"
     />
