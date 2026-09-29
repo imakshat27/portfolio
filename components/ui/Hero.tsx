@@ -10,7 +10,7 @@ function Hero() {
         <a href="https://x.com/imakshat_27"><img src="/twitter.png" alt="Twitter" className="w-10 h-10 sm:w-10 sm:h-10" /></a>
         </div>
       </div>
-      <img src="/carricature.png" alt="Profile Picture" className="w-48 sm:w-64 md:w-70 lg:w-70 h-auto rounded-full" />
+      <img src="/pic.jpeg" alt="Profile Picture" className="w-48 sm:w-64 md:w-70 lg:w-70 h-auto rounded-full" />
       </div>
     );
 }
