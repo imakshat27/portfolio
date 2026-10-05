@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -13,6 +13,13 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+export const viewport: Viewport = {
+  themeColor: "#09090b",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
 
 export const metadata: Metadata = {
   title: "Akshat Agarwal — Full-Stack Engineer & AI Systems",
@@ -44,19 +51,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark scroll-smooth">
+    <html lang="en" className="dark scroll-smooth overflow-x-hidden">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-[#08090c] text-zinc-100 min-h-screen flex flex-col relative selection:bg-sky-500/20 selection:text-sky-200`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-[#09090b] text-zinc-100 min-h-screen flex flex-col relative selection:bg-white/10 selection:text-white overflow-x-hidden`}
       >
-        {/* Ambient Top Glow */}
-        <div className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 ambient-glow pointer-events-none z-0 opacity-70" />
-        
-        {/* Subtle grid pattern */}
-        <div className="fixed inset-0 subtle-grid pointer-events-none opacity-40 z-0" />
+        {/* Subtle Ambient Glow */}
+        <div className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-80 ambient-glow pointer-events-none z-0 opacity-40" />
 
         <div className="relative z-10 flex flex-col flex-1">
           <Navbar />
-          <main className="flex-1 pt-24">{children}</main>
+          <main className="flex-1 pt-20 sm:pt-24">{children}</main>
           <Footer />
         </div>
       </body>
