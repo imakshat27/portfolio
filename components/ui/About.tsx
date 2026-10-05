@@ -18,7 +18,7 @@ function About() {
         <p>
           When I'm not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or indulging in my love for photography and travel.
         </p>
-        <a href="/resume" target="_blank" rel="noreferrer">
+        <a href="/resume.pdf" target="_blank" rel="noreferrer">
           <button className="bg-blue-500 p-3 mt-20 rounded-3xl px-6">View Resume (PDF)</button>
         </a>
         </div>

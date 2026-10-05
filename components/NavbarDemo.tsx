@@ -28,7 +28,7 @@ export function NavbarDemo() {
     },
     {
       name: "Resume",
-      link: "/resume",
+      link: "/resume.pdf",
     }
   ];
 

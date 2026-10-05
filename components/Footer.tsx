@@ -102,7 +102,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
-                <a href="/resume" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition-colors flex items-center gap-1">
+                <a href="/resume.pdf" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition-colors flex items-center gap-1">
                   <span>Resume (PDF)</span>
                   <ArrowUpRight className="w-3 h-3 opacity-60" />
                 </a>

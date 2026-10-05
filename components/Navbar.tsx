@@ -92,7 +92,7 @@ export default function Navbar() {
           {/* Right Action: Resume & Contact / Mobile Menu button */}
           <div className="flex items-center gap-2.5">
             <a
-              href="/resume"
+              href="/resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="hidden sm:inline-flex items-center gap-1.5 text-xs font-medium px-3.5 py-1.5 rounded-lg border bg-white/[0.04] hover:bg-white/[0.09] text-zinc-300 hover:text-white border-white/[0.08] transition-all duration-200"
@@ -150,7 +150,7 @@ export default function Navbar() {
 
             <div className="pt-3 mt-2 border-t border-white/[0.08] flex items-center justify-between px-1">
               <a
-                href="/resume"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setMobileMenuOpen(false)}

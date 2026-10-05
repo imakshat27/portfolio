@@ -142,7 +142,7 @@ export default function ExperiencePage() {
         </div>
         <div className="flex items-center gap-3">
           <a
-            href="/resume"
+            href="/resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white text-black text-xs font-semibold hover:bg-zinc-200 transition-colors shadow-lg shadow-white/5"

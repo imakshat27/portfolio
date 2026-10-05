@@ -76,7 +76,7 @@ export default function Home() {
                 <span>Explore Projects</span>
               </Link>
               <a
-                href="/resume"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-transparent hover:bg-white/[0.04] text-zinc-400 hover:text-white text-xs font-medium transition-colors"
@@ -508,7 +508,7 @@ export default function Home() {
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
           <a
-            href="/resume"
+            href="/resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white/[0.05] hover:bg-white/[0.1] text-zinc-200 text-xs font-semibold border border-white/[0.08] transition-colors"
