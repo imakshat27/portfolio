@@ -2,7 +2,7 @@
 
 **Web Developer | Frontend-focused | Builder by instinct**
 
-🌐 Portfolio: [akshatagarwal.vercel.app](https://akshatagarwal.vercel.app)
+🌐 Portfolio: [imakshat.com](https://imakshat.com)
 
 ---
 
@@ -47,7 +47,7 @@ Some things I’ve built:
 - 📊 Data-driven interfaces  
 
 👉 Full project list & live demos:  
-**[akshatagarwal.vercel.app](https://akshatagarwal.vercel.app)**
+**[imakshat.com](https://imakshat.com)**
 
 ---
 
@@ -62,7 +62,7 @@ Some things I’ve built:
 
 ## 📫 Let’s Connect
 
-- 🌐 Portfolio: [akshatagarwal.vercel.app](https://akshatagarwal.vercel.app)
+- 🌐 Portfolio: [imakshat.com](https://imakshat.com)
 - 💼 LinkedIn: [imakshat27](https://linkedin.com/in/imakshat27)
 - 🐦 Twitter/X: [imakshat_27](https://x.com/imakshat_27)
 - 📧 Email: [agarwalakshat2710@gmail.com](mailto:agarwalakshat2710@gmail.com)
