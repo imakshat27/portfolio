@@ -43,11 +43,7 @@ export default function ProjectGallery() {
             <div className="project-image">
               <Image
                 src={project.image}
-                alt={
-                  project.id === "bank-statement-rag"
-                    ? "Illustrative routing diagram; a preview of BankStatementRAG is not available"
-                    : `${project.title} project preview`
-                }
+                alt={project.imageAlt}
                 fill
                 sizes="(max-width: 700px) calc(100vw - 40px), (max-width: 1160px) calc((100vw - 80px) / 2), 530px"
                 loading="lazy"

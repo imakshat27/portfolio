@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
   display: "swap",
 });
-const title = "Akshat Agarwal — A developer’s sketchbook";
+const title = "Akshat / Sketchbook";
 
 export const viewport: Viewport = {
   themeColor: "#f7f4ec",

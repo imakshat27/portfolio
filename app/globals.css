@@ -437,7 +437,7 @@ svg {
 }
 .project-image img {
   object-fit: cover;
-  object-position: top;
+  object-position: center;
 }
 .project-category {
   position: absolute;
@@ -547,10 +547,23 @@ svg {
   max-width: 900px;
 }
 .experience-body ul {
-  padding-left: 20px;
+  padding-left: 0;
+  list-style: none;
 }
 .experience-body li {
   margin-top: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.experience-bullet {
+  width: 0;
+  height: 0;
+  flex-shrink: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 7px solid var(--accent);
+  margin-top: 6px;
 }
 .stack-note {
   font-size: 12px;

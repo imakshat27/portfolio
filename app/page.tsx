@@ -244,9 +244,12 @@ export default function Home() {
               </summary>
               <div className="experience-body">
                 <p>{experience.summary}</p>
-                <ul>
+                <ul role="list">
                   {experience.description.map((line) => (
-                    <li key={line}>{line}</li>
+                    <li key={line}>
+                      <span className="experience-bullet" aria-hidden="true" />
+                      <span>{line}</span>
+                    </li>
                   ))}
                 </ul>
                 <div className="tag-list">
