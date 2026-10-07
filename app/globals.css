@@ -167,4 +167,21 @@ html{
   background: rgba(255, 255, 255, 0.25);
 }
 
+/* GitHub Activity Calendar styling */
+.react-activity-calendar {
+  color: #d4d4d8;
+}
+
+.react-activity-calendar text {
+  fill: #a1a1aa !important;
+  font-family: var(--font-geist-mono), monospace !important;
+  font-size: 11px !important;
+}
+
+.react-activity-calendar footer {
+  color: #a1a1aa !important;
+  font-size: 11px !important;
+}
+
+
 

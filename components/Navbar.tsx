@@ -9,6 +9,7 @@ import { PERSONAL_INFO } from "@/lib/portfolio-data";
 const NAV_ITEMS = [
   { name: "About", href: "/#about", sectionId: "about" },
   { name: "Experience", href: "/#experience", sectionId: "experience" },
+  { name: "Activity", href: "/#contributions", sectionId: "contributions" },
   { name: "Projects", href: "/#projects", sectionId: "projects" },
   { name: "Skills", href: "/#skills", sectionId: "skills" },
   { name: "Contact", href: "/#contact", sectionId: "contact" },
