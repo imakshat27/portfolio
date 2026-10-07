@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <title>Akshat’s Sketchbook</title>
-  <rect x="5" y="5" width="57" height="57" fill="#20201e"/>
-  <rect x="2" y="2" width="57" height="57" fill="#f7f4ec" stroke="#20201e" stroke-width="2"/>
-  <path fill="#20201e" fill-rule="evenodd" d="M28 20C18 20 12 27 12 37C12 47 18 52 26 52C30 52 33 50 35 47V51H43V21H35V24C33 21 30 20 28 20ZM28 28C23 28 20 31 20 37C20 42 23 45 28 45C33 45 35 42 35 37C35 31 33 28 28 28Z"/>
-  <rect x="47" y="43" width="8" height="8" fill="#b7382a"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Akshat’s Sketchbook</title><circle cx="32" cy="32" r="30.5" fill="#f7f4ec" stroke="#20201e" stroke-width="2"/><path d="M223 -12Q141 -12 92.5 26Q44 64 44 132Q44 200 84 239Q124 278 211 294L399 329Q399 396 367.5 429Q336 462 273 462Q218 462 186 437.5Q154 413 142 367L53 374Q68 449 125.5 495.5Q183 542 273 542Q375 542 429 484.5Q483 427 483 326L483 107Q483 89 489.5 81.5Q496 74 511 74L532 74L532 0Q528 -1 519 -1.5Q510 -2 500 -2Q464 -2 441.5 9.5Q419 21 409 45.5Q399 70 399 110L409 108Q402 74 375 46.5Q348 19 308 3.5Q268 -12 223 -12ZM231 62Q284 62 321.5 82.5Q359 103 379 138.5Q399 174 399 218L399 256L227 224Q173 214 152.5 193.5Q132 173 132 140Q132 103 158.5 82.5Q185 62 231 62Z" transform="translate(8.844765342960288 46.285198555956676) scale(0.05956678700361011 -0.05956678700361011)" fill="#20201e" stroke="#20201e" stroke-width="30" stroke-linejoin="round"/><circle cx="48" cy="45" r="6.5" fill="#c64028" stroke="#20201e" stroke-width="1.5"/></svg>
