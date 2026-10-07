@@ -276,7 +276,14 @@ export default function Home() {
           {SKILL_CATEGORIES.map((category) => (
             <div key={category.category} className="skill-panel">
               <h3>{category.category}</h3>
-              <p>{category.items.map((item) => item.name).join(" / ")}</p>
+              <p>
+                {category.items.map((item, index) => (
+                  <span key={item.name}>
+                    {index > 0 && <span className="skill-separator"> / </span>}
+                    <span className="skill-name">{item.name}</span>
+                  </span>
+                ))}
+              </p>
             </div>
           ))}
         </div>

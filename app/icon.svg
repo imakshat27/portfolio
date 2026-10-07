@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
-  <rect width="100" height="100" rx="22" fill="#0d0e12"/>
-  <rect x="1" y="1" width="98" height="98" rx="21" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
-  <text x="50" y="52" text-anchor="middle" dominant-baseline="central" fill="#fafafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Geist', Roboto, sans-serif" font-weight="700" font-size="62" letter-spacing="-0.03em">A</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Akshat’s Sketchbook</title>
+  <rect x="5" y="5" width="57" height="57" fill="#20201e"/>
+  <rect x="2" y="2" width="57" height="57" fill="#f7f4ec" stroke="#20201e" stroke-width="2"/>
+  <path fill="#20201e" fill-rule="evenodd" d="M28 20C18 20 12 27 12 37C12 47 18 52 26 52C30 52 33 50 35 47V51H43V21H35V24C33 21 30 20 28 20ZM28 28C23 28 20 31 20 37C20 42 23 45 28 45C33 45 35 42 35 37C35 31 33 28 28 28Z"/>
+  <rect x="47" y="43" width="8" height="8" fill="#b7382a"/>
 </svg>
