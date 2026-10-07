@@ -1,16 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import { GitHubCalendar } from "react-github-calendar";
-import { Github, ExternalLink, GitCommit, Flame, Sparkles } from "lucide-react";
+import { Github, ExternalLink, GitCommit, Sparkles } from "lucide-react";
 import { PERSONAL_INFO } from "@/lib/portfolio-data";
 
+const subscribe = () => () => {};
 export default function GithubContributions() {
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = useSyncExternalStore(
+    subscribe,
+    () => true,
+    () => false,
+  );
 
   return (
     <section id="contributions" className="scroll-mt-24 space-y-6">
@@ -49,9 +50,13 @@ export default function GithubContributions() {
         <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-zinc-400 pb-4 border-b border-white/[0.04]">
           <div className="flex items-center gap-2">
             <GitCommit className="w-4 h-4 text-emerald-400" />
-            <span className="text-zinc-200 font-medium">Public Contribution Momentum</span>
+            <span className="text-zinc-200 font-medium">
+              Public Contribution Momentum
+            </span>
             <span className="text-zinc-600 hidden sm:inline">&bull;</span>
-            <span className="text-zinc-400 hidden sm:inline">Active commits across repositories</span>
+            <span className="text-zinc-400 hidden sm:inline">
+              Active commits across repositories
+            </span>
           </div>
 
           <div className="flex items-center gap-1.5 text-xs font-mono text-zinc-400 bg-white/[0.03] px-2.5 py-1 rounded-md border border-white/[0.05]">

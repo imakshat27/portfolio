@@ -1,0 +1,13 @@
+# Cloudflare Pages redirects for the old standalone routes.
+/about /#about 301
+/about/ /#about 301
+/projects /#projects 301
+/projects/ /#projects 301
+/experience /#experience 301
+/experience/ /#experience 301
+/skills /#skills 301
+/skills/ /#skills 301
+/contact /#contact 301
+/contact/ /#contact 301
+/resume /resume.pdf 301
+/resume/ /resume.pdf 301

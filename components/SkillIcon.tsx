@@ -5,7 +5,6 @@ import {
   SiJavascript,
   SiCplusplus,
   SiHtml5,
-  SiCss,
   SiNextdotjs,
   SiReact,
   SiNodedotjs,
