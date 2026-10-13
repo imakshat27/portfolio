@@ -10,3 +10,4 @@ The skill’s verified Brutalism result supports visible panels, editorial hiera
 - No looping decorative animation. Respect reduced motion and keep everything readable without JavaScript.
 - At least 44px controls, visible focus, semantic headings, skip link, labeled forms.
 - Single canonical homepage. Other routes remain legacy redirects.
+- New project banners use real public hero screenshots. Keep the existing three illustrations for retained projects until a separate update is requested. Never capture private account data for portfolio artwork.

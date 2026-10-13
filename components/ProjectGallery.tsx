@@ -9,6 +9,7 @@ const CATEGORIES = [
   "All",
   "AI & LLMs",
   "Full Stack",
+  "Mobile & Web",
   "Systems & Algorithms",
 ] as const;
 
@@ -61,7 +62,8 @@ export default function ProjectGallery() {
               <div className="project-links">
                 {project.liveUrl && (
                   <a href={project.liveUrl} target="_blank" rel="noreferrer">
-                    Try it out <ArrowUpRight size={18} aria-hidden="true" />
+                    {project.liveLabel ?? "Try it out"}{" "}
+                    <ArrowUpRight size={18} aria-hidden="true" />
                     <span className="sr-only">: {project.title}</span>
                   </a>
                 )}

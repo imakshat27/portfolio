@@ -22,9 +22,14 @@ export interface Project {
   image: string;
   imageAlt: string;
   technologies: string[];
-  category: "AI & LLMs" | "Full Stack" | "Systems & Algorithms";
+  category:
+    | "AI & LLMs"
+    | "Full Stack"
+    | "Mobile & Web"
+    | "Systems & Algorithms";
   githubUrl?: string;
   liveUrl?: string;
+  liveLabel?: string;
   featured: boolean;
 }
 
@@ -166,6 +171,87 @@ export const EXPERIENCES: Experience[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "drop",
+    title: "Drop",
+    subtitle: "A home for what VIT is building",
+    description:
+      "A curated platform for VIT student projects, with weekly drops, verified support, builder profiles, and a place to find teammates. Built to help good work get discovered.",
+    details: [
+      "Project submissions move through a curator review before entering the public exhibition.",
+      "Weekly support and locked ranking archives preserve each edition’s results.",
+      "Google sign-in for verified VIT accounts, with server-side authorization and PostgreSQL constraints.",
+    ],
+    image: "/projects/drop-hero.webp",
+    imageAlt:
+      "Drop homepage hero reading What VIT is building, with colorful student-project cards",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Cloudflare Workers",
+      "Drizzle",
+      "Google OAuth",
+    ],
+    category: "Full Stack",
+    liveUrl: "https://droppp.tech",
+    featured: true,
+  },
+  {
+    id: "orbit",
+    title: "Orbit",
+    subtitle: "A little space for your digital world",
+    description:
+      "My personal command center for files, notes, calendars, and site analytics. An installable PWA with Google Drive and Calendar integrations, kept private behind owner-only sign-in.",
+    details: [
+      "A responsive workspace brings quick capture, notes, file browsing, and calendar previews together.",
+      "Cloudflare Workers and D1 handle sessions, notes, and encrypted provider tokens.",
+      "Google Drive and Calendar connect through server-side adapters; a separate local demo uses sample data.",
+    ],
+    image: "/projects/orbit-hero.webp",
+    imageAlt:
+      "Orbit’s public sign-in screen reading Welcome to your orbit, with a planet mark and Google sign-in button",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Cloudflare Workers",
+      "D1",
+      "PWA",
+      "Google APIs",
+    ],
+    category: "Full Stack",
+    githubUrl: "https://github.com/imakshat27/personal-dash",
+    liveUrl: "https://orbit.imakshat.com",
+    liveLabel: "Visit Orbit",
+    featured: true,
+  },
+  {
+    id: "flick",
+    title: "Flick",
+    subtitle: "Your moment. Every perspective.",
+    description:
+      "A shared event camera: guests join by QR code, get a limited photo roll, and see the album after the host publishes it. An Android-first Expo app with a browser beta for guests.",
+    details: [
+      "Hosts choose the event theme and photo allowance; guests can join without a permanent account.",
+      "Private photo storage, resumable uploads, host moderation, and a shared album reveal.",
+      "Supabase authorization protects event membership, publication, sharing, and album expiry.",
+    ],
+    image: "/projects/flick-hero.webp",
+    imageAlt:
+      "Flick homepage hero reading Your moment, Every perspective, beside a disposable camera",
+    technologies: [
+      "Expo",
+      "React Native",
+      "TypeScript",
+      "Supabase",
+      "Expo Camera",
+      "Cloudflare",
+    ],
+    category: "Mobile & Web",
+    liveUrl: "https://flick.aksht.site",
+    liveLabel: "Open web beta",
+    featured: true,
+  },
+  {
     id: "bank-statement-rag",
     title: "BankStatementRAG",
     subtitle: "Financial Document Intelligence via Local LLM",
@@ -218,43 +304,6 @@ export const PROJECTS: Project[] = [
     featured: true,
   },
   {
-    id: "movie-vault",
-    title: "Movie Vault",
-    subtitle: "Cinematic Discovery & Media Tracking Engine",
-    description:
-      "Modern cinematic exploration web application featuring fluid search, rich metadata filtering, watchlist management, and TMDB integration.",
-    details: [
-      "Engineered an intuitive interface with instant debounced search and genre-based filtering.",
-      "Integrated dynamic modal previews, cast breakdowns, and trailer streaming previews.",
-      "Optimized client caching and image rendering for lightning-fast browsing on any screen.",
-    ],
-    image: "/projects/movie-vault.webp",
-    imageAlt: "Ink clapperboard with a rust play triangle",
-    technologies: ["React", "Next.js", "Tailwind CSS", "REST APIs", "Vercel"],
-    category: "Full Stack",
-    liveUrl: "https://movie-vault-a3.vercel.app/",
-    githubUrl: "https://github.com/imakshat27",
-    featured: true,
-  },
-  {
-    id: "uncleartrip",
-    title: "UnclearTrip",
-    subtitle: "Curated Travel Experience & Itinerary Planner",
-    description:
-      "Sleek travel discovery web platform designed to simplify itinerary organization, budget forecasting, and exploration guides.",
-    details: [
-      "Crafted an immersive editorial design aesthetic with interactive destination maps.",
-      "Built structured travel guides and intuitive reservation overviews.",
-    ],
-    image: "/projects/uncleartrip.webp",
-    imageAlt: "Folded map with a rust location pin and a dotted route",
-    technologies: ["React", "Next.js", "Tailwind CSS", "UI/UX Design"],
-    category: "Full Stack",
-    liveUrl: "https://uncleartrip.vercel.app/",
-    githubUrl: "https://github.com/imakshat27",
-    featured: true,
-  },
-  {
     id: "campus-delivery-routing",
     title: "Campus Routing Engine",
     subtitle: "Algorithmic Shortest-Path Logistics System",
@@ -275,23 +324,6 @@ export const PROJECTS: Project[] = [
       "Data Structures",
     ],
     category: "Systems & Algorithms",
-    githubUrl: "https://github.com/imakshat27",
-    featured: false,
-  },
-  {
-    id: "lineup",
-    title: "LineUp",
-    subtitle: "Task Scheduling & Team Workflow Orchestrator",
-    description:
-      "Collaborative task coordination tool offering real-time progress indicators, sprint boards, and priority tagging.",
-    details: [
-      "Interactive drag-and-drop kanban workflow with optimistic UI updates.",
-      "Custom notification triggers and team assignment workflows.",
-    ],
-    image: "/projects/lineup.webp",
-    imageAlt: "Three-column task board with a single rust task card",
-    technologies: ["React", "TypeScript", "Node.js", "Tailwind CSS"],
-    category: "Full Stack",
     githubUrl: "https://github.com/imakshat27",
     featured: false,
   },
