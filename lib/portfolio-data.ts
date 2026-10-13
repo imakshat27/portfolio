@@ -209,7 +209,7 @@ export const PROJECTS: Project[] = [
     ],
     image: "/projects/orbit-hero.webp",
     imageAlt:
-      "Orbit’s public sign-in screen reading Welcome to your orbit, with a planet mark and Google sign-in button",
+      "Orbit’s light-mode dashboard with workspace navigation, files, notes, site analytics, and calendar cards, using sample data",
     technologies: [
       "React",
       "TypeScript",
